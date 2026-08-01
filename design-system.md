@@ -1,7 +1,7 @@
-# Design System — Built by Eunice
+# Design System — Built by Oma
 
 ## Brand Overview
-Built by Eunice helps business owners build a professional online presence through modern, strategic websites.
+Built by Oma helps business owners build a professional online presence through modern, strategic websites.
 The design should communicate trust, clarity, professionalism, and simplicity. Every design decision should help visitors understand the offer quickly and feel confident taking the next step.
 
 ## Design Principles
@@ -127,8 +127,8 @@ Show website previews inside clean cards. Each project should include homepage p
 * Contact Form
 * Footer
 
-*These components should be reusable across future Built by Eunice projects to maintain visual consistency and reduce development time.*
+*These components should be reusable across future Built by Oma projects to maintain visual consistency and reduce development time.*
 
 ## Overall Experience
-* Visitors should feel that Built by Eunice is trustworthy, strategic, and professional within the first few seconds of landing on the page.
+* Visitors should feel that Built by Oma is trustworthy, strategic, and professional within the first few seconds of landing on the page.
 * Every page should guide visitors naturally toward taking action without feeling overwhelming or overly sales focused.

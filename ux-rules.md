@@ -1,4 +1,4 @@
-# UX Rules — Built by Eunice
+# UX Rules — Built by Oma
 
 ## Purpose
 The purpose of this landing page is to guide business owners from curiosity to confidence, and finally to completing the contact form.
@@ -25,7 +25,7 @@ Present information in this order:
 5. How It Works
 6. Recent Projects
 7. Testimonials
-8. About Built by Eunice
+8. About Built by Oma
 9. Choose Your Path
 10. Frequently Asked Questions
 11. Contact Form
@@ -168,4 +168,4 @@ Include:
 ## Overall Experience
 * Visitors should finish the page feeling informed, confident, and ready to take action.
 * The experience should remove uncertainty, answer common questions, and make starting a project feel simple.
-* Every interaction should reinforce the professionalism, trustworthiness, and strategic approach of Built by Eunice.
+* Every interaction should reinforce the professionalism, trustworthiness, and strategic approach of Built by Oma.

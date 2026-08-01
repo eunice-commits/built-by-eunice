@@ -1,7 +1,7 @@
-# Asset Library — Built by Eunice
+# Asset Library — Built by Oma
 
 ## Purpose
-This document lists every asset required to design, build, optimize, and launch the Built by Eunice landing page. It serves as a central checklist to ensure nothing is overlooked during development or before launch.
+This document lists every asset required to design, build, optimize, and launch the Built by Oma landing page. It serves as a central checklist to ensure nothing is overlooked during development or before launch.
 
 ## Brand Assets
 
@@ -44,7 +44,7 @@ Provide:
 * Button styles
 
 ## Founder & Team Assets
-* Professional headshot of Eunice Orji
+* Professional headshot of Oma
 * Team/group photo (showing the team of product designers, web designers, and digital marketers)
 * Lifestyle photo
 * Working photo
@@ -100,7 +100,7 @@ Prepare consistent icons for:
 
 ## Open Graph Assets
 Prepare a branded social sharing image. Recommended content:
-* Built by Eunice logo
+* Built by Oma logo
 * Professional website mockup
 * Promotional offer
 * Clear headline
@@ -140,7 +140,7 @@ Prepare a branded social sharing image. Recommended content:
 * X
 * YouTube (if available)
 
-*Use the official Built by Eunice branding across all platforms.*
+*Use the official Built by Oma branding across all platforms.*
 
 ## Legal Assets
 * Privacy Policy
@@ -204,7 +204,7 @@ Every asset should:
 
 ## Folder Structure
 ```text
-Built by Eunice
+Built by Oma
 ├── Brand
 ├── Logos
 ├── Colors
@@ -229,4 +229,4 @@ Built by Eunice
 * Maintain consistent naming conventions.
 * Review and update assets regularly.
 
-*A well organized asset library reduces development time, improves consistency, and supports the long term growth of the Built by Eunice brand.*
+*A well organized asset library reduces development time, improves consistency, and supports the long term growth of the Built by Oma brand.*

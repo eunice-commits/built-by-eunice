@@ -1,4 +1,4 @@
-# SEO Strategy — Built by Eunice
+# SEO Strategy — Built by Oma
 
 ## Purpose
 The purpose of this landing page is to attract business owners across Nigeria who are looking for a professional website designer and convert them into qualified leads through the contact form and WhatsApp.
@@ -47,13 +47,13 @@ This page is written for:
 
 ## Branded Keywords
 As the brand grows, optimize for searches including:
-* Built by Eunice
-* Built by Eunice website design
-* Eunice Orji
-* Eunice Orji website designer
+* Built by Oma
+* Built by Oma website design
+* Oma
+* Oma website designer
 
 ## URL Structure
-* **Primary domain:** `https://builtbyeunice.com.ng`
+* **Primary domain:** `https://builtbyoma.com.ng`
 * **Recommended landing page URL:** `/website-design`
 * **Future service pages may include:**
   * `/ecommerce-websites`
@@ -64,11 +64,11 @@ As the brand grows, optimize for searches including:
 *Use short, descriptive URLs that are easy to remember and reflect search intent.*
 
 ## Meta Title
-`Professional Website Designer in Nigeria | Built by Eunice`
+`Professional Website Designer in Nigeria | Built by Oma`
 *Recommended length: 50 to 60 characters.*
 
 ## Meta Description
-`Build trust, attract more customers, and grow your business with a professionally designed website by Built by Eunice. SEO, Google Business Profile setup, payment integration, and more included.`
+`Build trust, attract more customers, and grow your business with a professionally designed website by Built by Oma. SEO, Google Business Profile setup, payment integration, and more included.`
 *Recommended length: 150 to 160 characters.*
 
 ## Heading Structure
@@ -81,7 +81,7 @@ As the brand grows, optimize for searches including:
   4. How It Works
   5. Recent Projects
   6. Testimonials
-  7. About Built by Eunice
+  7. About Built by Oma
   8. Choose Your Path
   9. Frequently Asked Questions
   10. Contact
@@ -98,10 +98,10 @@ As the brand grows, optimize for searches including:
 * **Contact:** Website designer in Nigeria
 
 ## Open Graph
-* **Open Graph Title:** `Professional Website Designer in Nigeria | Built by Eunice`
+* **Open Graph Title:** `Professional Website Designer in Nigeria | Built by Oma`
 * **Open Graph Description:** `Launch your business online with a professionally designed website that helps customers trust your brand and take action.`
 * **Open Graph Image:** The image should include:
-  * Built by Eunice logo
+  * Built by Oma logo
   * Professional website mockup
   * Promotional offer
   * Clear call to action
@@ -113,7 +113,7 @@ As the brand grows, optimize for searches including:
 ## Image SEO
 * Use descriptive filenames.
 * *Examples:*
-  * `built-by-eunice-homepage.webp`
+  * `built-by-oma-homepage.webp`
   * `fashion-brand-website.webp`
   * `beauty-business-website.webp`
   * `restaurant-website-design.webp`
@@ -150,7 +150,7 @@ Only link to trusted, relevant resources when appropriate. Examples include:
 *External links should open in a new tab where appropriate.*
 
 ## Local SEO
-* The page should naturally communicate that Built by Eunice serves businesses across Nigeria while maintaining a strong presence in Abakaliki and Ebonyi State.
+* The page should naturally communicate that Built by Oma serves businesses across Nigeria while maintaining a strong presence in Abakaliki and Ebonyi State.
 * *Avoid repeating location keywords unnaturally.*
 
 ## Structured Data
@@ -189,7 +189,7 @@ Implement structured data using Schema.org. Recommended schema types:
 * Support keyboard navigation where applicable.
 
 ## Future Content Strategy
-As Built by Eunice grows, publish educational content around topics such as:
+As Built by Oma grows, publish educational content around topics such as:
 * Why Every Small Business Needs a Website
 * Google Business Profile for Beginners
 * Website vs Social Media

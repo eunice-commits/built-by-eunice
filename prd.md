@@ -1,7 +1,7 @@
-# Product Requirements Document (PRD) — Built by Eunice Landing Page
+# Product Requirements Document (PRD) — Built by Oma Landing Page
 
 ## 1. Project Overview
-* **Project name:** Built by Eunice Landing Page
+* **Project name:** Built by Oma Landing Page
 * **Purpose:** A single scrolling landing page that promotes a limited time website package offer, educates business owners on why they need a professional website, and moves qualified visitors into a WhatsApp sales conversation.
 * **Business objective:** Sell the ₦80,000 Business Launch Package to the first 10 business owners who complete the form during the promotional period.
 * **Primary conversion goal:** Form completion, leading to a WhatsApp redirect with a prefilled message.
@@ -117,7 +117,7 @@
 * **Layout:** Visible by default, not collapsible, since proof of work should not require extra effort from the visitor to see. Grid on desktop, horizontal scroll or stacked cards on mobile.
 
 ### About
-* **Purpose:** Build trust in who is behind the brand, and briefly cover why Built by Eunice is different, without turning this into a long separate differentiation section.
+* **Purpose:** Build trust in who is behind the brand, and briefly cover why Built by Oma is different, without turning this into a long separate differentiation section.
 * **Content:** Short team bio (who the team is, what they focus on), folded together with a brief statement on what makes the approach different (websites built to help customers trust the business and take action, not just look good). Keep this to a few short paragraphs, not multiple subsections.
 * **Layout:** Simple text section, optional team photo. Visible by default, kept intentionally brief to avoid adding length to the page.
 

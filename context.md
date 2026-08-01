@@ -1,12 +1,12 @@
-# Built by Eunice Landing Page Context
+# Built by Oma Landing Page Context
 
 ## Project Overview
-This project is a high converting sales page for Built by Eunice, a website design team founded by Eunice Orji.
+This project is a high converting sales page for Built by Oma, a website design team founded by Oma.
 The purpose of this page is to convert business owners into qualified leads for the Business Launch Package through a simple contact form that continues the sales conversation on WhatsApp.
 This page is not a portfolio website. It is not a company website. It is a focused sales page with one primary goal: generate qualified leads.
 
-## About Built by Eunice
-Built by Eunice is a website design team that helps business owners establish a professional online presence.
+## About Built by Oma
+Built by Oma is a website design team that helps business owners establish a professional online presence.
 The brand combines website design with business strategy to help clients build credibility, increase visibility, and make it easier for customers to find and trust their businesses online.
 Every website is designed with the business owner's goals in mind, not just visual appeal.
 The emphasis is on creating websites that are simple, professional, mobile friendly, search engine optimized, and built to support business growth.
@@ -16,7 +16,7 @@ The objective of this landing page is to persuade business owners to request a w
 Visitors should quickly understand:
 * What is being offered
 * Why they need it
-* Why Built by Eunice is the right choice
+* Why Built by Oma is the right choice
 * What the package includes
 * How the process works
 * What they should do next
@@ -93,7 +93,7 @@ All sales conversations continue on WhatsApp after the contact form is submitted
 4. Visitor builds trust through projects and testimonials.
 5. Visitor completes the contact form.
 6. Visitor is redirected to WhatsApp with a prefilled message.
-7. The Built by Eunice team continues the conversation.
+7. The Built by Oma team continues the conversation.
 
 ## Secondary Offer
 Some visitors may prefer learning to build their own website.
@@ -105,7 +105,7 @@ For those visitors, a second option is available.
 * This option should be presented as an alternative path, not as a cheaper version of the main service.
 
 ## Brand Personality
-Built by Eunice should feel:
+Built by Oma should feel:
 * Professional
 * Strategic
 * Honest
@@ -168,6 +168,6 @@ The page is successful when visitors:
 * Become paying clients
 
 ## Long Term Vision
-Built by Eunice is being developed as a premium website design brand for business owners.
+Built by Oma is being developed as a premium website design brand for business owners.
 This landing page is the first step toward building a scalable business with reusable templates, consistent systems, and a recognizable brand identity.
 Every future page should maintain the same standards of clarity, professionalism, and trust established here.

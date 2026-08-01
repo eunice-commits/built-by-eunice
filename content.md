@@ -1,4 +1,4 @@
-# Content File — Built by Eunice Landing Page
+# Content File — Built by Oma Landing Page
 
 ## Hero Section
 
@@ -110,8 +110,8 @@ This section displays 5 actual screenshot testimonials (WhatsApp chats and Faceb
 
 ---
 
-## About Built by Eunice
-Built by Eunice is a team passionate about helping businesses build a stronger online presence.
+## About Built by Oma
+Built by Oma is a team passionate about helping businesses build a stronger online presence.
 
 We've worked with business owners who needed more than just a beautiful website. They needed a website that would help customers trust their business, understand what they offer, and take the next step with confidence.
 
@@ -192,11 +192,11 @@ You're on the list. Expect a message or call from us shortly so we can get start
 ---
 
 ## Footer
-Built by Eunice
+Built by Oma
 Professional website design for businesses that want to build trust, attract customers, and grow online.
 Whether you're just getting started or you're ready to upgrade your online presence, we're here to help you create a website that works for your business.
 
 * **Email:** BuiltbyOma@outlook.com
 * **WhatsApp:** 0707 770 8664
 
-© 2026 Built by Eunice. All Rights Reserved. | Privacy Policy | Terms & Conditions
+© 2026 Built by Oma. All Rights Reserved. | Privacy Policy | Terms & Conditions

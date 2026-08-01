@@ -1,8 +1,8 @@
-# Service Scope — Built by Eunice Business Launch Package
+# Service Scope — Built by Oma Business Launch Package
 
 ## Purpose
 This document defines the scope of the ₦80,000 Business Launch Package.
-It explains exactly what is included, what is not included, and how projects are delivered. This helps set clear expectations for both Built by Eunice and every client.
+It explains exactly what is included, what is not included, and how projects are delivered. This helps set clear expectations for both Built by Oma and every client.
 
 ## Package Price
 * Promotional Price: ₦80,000
@@ -130,7 +130,7 @@ The package does not include:
 
 ## Ownership
 * After final payment has been received, the client owns the website content and the licensed assets used for their project.
-* Built by Eunice reserves the right to display the completed website in its portfolio unless otherwise agreed in writing.
+* Built by Oma reserves the right to display the completed website in its portfolio unless otherwise agreed in writing.
 
 ## Communication
 * Project communication will take place primarily through WhatsApp and email.
@@ -145,7 +145,7 @@ Every website is designed to be:
 * Search engine optimized
 * Aligned with the client's business goals
 
-Built by Eunice considers a project complete only when the website is live, functioning correctly, and the agreed scope has been delivered.
+Built by Oma considers a project complete only when the website is live, functioning correctly, and the agreed scope has been delivered.
 
 ## Scope Changes
 * Any request outside the scope of this package will be reviewed separately.

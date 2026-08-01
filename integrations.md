@@ -1,7 +1,7 @@
-# Integrations — Built by Eunice
+# Integrations — Built by Oma
 
 ## Purpose
-This document defines every external service, tracking tool, and system that must be connected to the Built by Eunice landing page.
+This document defines every external service, tracking tool, and system that must be connected to the Built by Oma landing page.
 The objective is to ensure a smooth user experience, accurate lead tracking, reliable communication, and measurable marketing performance.
 
 ## Contact Form Integration
@@ -51,7 +51,7 @@ I just completed the form on your website.
 * If WhatsApp cannot be opened, display the WhatsApp number with instructions to send the same message manually.
 
 ## Email Notifications
-Whenever a form is submitted, send an email notification to the Built by Eunice team containing:
+Whenever a form is submitted, send an email notification to the Built by Oma team containing:
 * Business Name
 * Business Type
 * Reason for the website
