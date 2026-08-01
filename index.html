@@ -5,6 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Build trust, attract more customers, and grow your business with a professionally designed website by Built by Eunice. SEO, Google Business Profile setup, Meta Ads Guide, and more included.">
   <title>Professional Website Designer in Nigeria | Built by Eunice</title>
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  
+  <!-- Open Graph Tags (Facebook, LinkedIn, WhatsApp) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://built-by-eunice.vercel.app/">
+  <meta property="og:title" content="Professional Website Designer in Nigeria | Built by Eunice">
+  <meta property="og:description" content="Build trust, attract more customers, and grow your business with a professionally designed website. SEO, Google Business Profile, and 1 week support included.">
+  <meta property="og:image" content="https://built-by-eunice.vercel.app/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://built-by-eunice.vercel.app/">
+  <meta name="twitter:title" content="Professional Website Designer in Nigeria | Built by Eunice">
+  <meta name="twitter:description" content="Build trust, attract more customers, and grow your business with a professionally designed website. SEO, Google Business Profile, and 1 week support included.">
+  <meta name="twitter:image" content="https://built-by-eunice.vercel.app/images/og-image.png">
+
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -211,7 +233,7 @@
           <div class="projects-grid">
             <div class="project-card">
               <div class="project-image">
-                <img src="images/project-fashion.jpg?v=3" alt="Eucharia Luxury Hair mockup" width="400" height="267">
+                <img src="images/project-fashion.jpg?v=3" alt="Eucharia Luxury Hair mockup" width="400" height="267" loading="lazy">
                 <a href="https://eucharia-luxury-hair.netlify.app/" target="_blank" class="project-overlay">
                   <span class="btn btn-primary btn-overlay">Visit Site</span>
                 </a>
@@ -224,7 +246,7 @@
             </div>
             <div class="project-card">
               <div class="project-image">
-                <img src="images/project-beauty.jpg?v=3" alt="King Redolence website mockup" width="400" height="267">
+                <img src="images/project-beauty.jpg?v=3" alt="King Redolence website mockup" width="400" height="267" loading="lazy">
                 <a href="https://kingredolence.com/" target="_blank" class="project-overlay">
                   <span class="btn btn-primary btn-overlay">Visit Site</span>
                 </a>
@@ -237,7 +259,7 @@
             </div>
             <div class="project-card">
               <div class="project-image">
-                <img src="images/project-restaurant.jpg?v=3" alt="Cee Collections website mockup" width="400" height="267">
+                <img src="images/project-restaurant.jpg?v=3" alt="Cee Collections website mockup" width="400" height="267" loading="lazy">
                 <a href="https://ceecollections.com.ng/" target="_blank" class="project-overlay">
                   <span class="btn btn-primary btn-overlay">Visit Site</span>
                 </a>
@@ -266,27 +288,27 @@
           <div class="testimonials-grid">
             <div class="testimonial-card">
               <div class="testimonial-frame">
-                <img src="images/testimonial-1.jpg?v=1" alt="Customer WhatsApp review screenshot" class="testimonial-img">
+                <img src="images/testimonial-1.jpg?v=1" alt="Customer WhatsApp review screenshot" class="testimonial-img" loading="lazy">
               </div>
             </div>
             <div class="testimonial-card">
               <div class="testimonial-frame">
-                <img src="images/testimonial-2.jpg?v=1" alt="WhatsApp testimonial screenshot" class="testimonial-img">
+                <img src="images/testimonial-2.jpg?v=1" alt="WhatsApp testimonial screenshot" class="testimonial-img" loading="lazy">
               </div>
             </div>
             <div class="testimonial-card">
               <div class="testimonial-frame">
-                <img src="images/testimonial-3.jpg?v=1" alt="Facebook client feedback screenshot" class="testimonial-img">
+                <img src="images/testimonial-3.jpg?v=1" alt="Facebook client feedback screenshot" class="testimonial-img" loading="lazy">
               </div>
             </div>
             <div class="testimonial-card">
               <div class="testimonial-frame">
-                <img src="images/testimonial-4.jpg?v=1" alt="WhatsApp project confirmation screenshot" class="testimonial-img">
+                <img src="images/testimonial-4.jpg?v=1" alt="WhatsApp project confirmation screenshot" class="testimonial-img" loading="lazy">
               </div>
             </div>
             <div class="testimonial-card">
               <div class="testimonial-frame">
-                <img src="images/testimonial-5.jpg?v=1" alt="WhatsApp website feedback screenshot" class="testimonial-img">
+                <img src="images/testimonial-5.jpg?v=1" alt="WhatsApp website feedback screenshot" class="testimonial-img" loading="lazy">
               </div>
             </div>
           </div>
@@ -300,7 +322,7 @@
       <div class="container about-grid">
         <h2>About Built by Eunice</h2>
         <div class="about-image">
-          <img src="images/team-portrait.jpg?v=2" alt="Eunice Orji and her team of professional web designers and digital marketers" width="550" height="367">
+          <img src="images/team-portrait.jpg?v=2" alt="Eunice Orji and her team of professional web designers and digital marketers" width="550" height="367" loading="lazy">
         </div>
         <div class="about-text">
           <p>Built by Eunice is a team passionate about helping businesses build a stronger online presence.</p>
@@ -432,6 +454,11 @@
 
           <!-- The Form -->
           <form id="contactForm" novalidate>
+            <!-- Honeypot field (hidden from users, targets spam bots) -->
+            <div class="form-group" style="display:none !important;" aria-hidden="true">
+              <label for="honeypot" class="form-label">Leave this field blank</label>
+              <input type="text" id="honeypot" class="form-control" autocomplete="off" tabindex="-1">
+            </div>
             <div class="form-group">
               <label for="businessName" class="form-label">Business Name (required)</label>
               <input type="text" id="businessName" class="form-control" placeholder="Enter your business name">

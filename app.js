@@ -78,6 +78,13 @@ function initContactForm() {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     
+    // Honeypot spam blocker check
+    const honeypot = document.getElementById('honeypot');
+    if (honeypot && honeypot.value) {
+      console.warn('[SECURITY] Bot submission blocked via honeypot.');
+      return;
+    }
+    
     // Reset errors
     let isValid = true;
     const errors = form.querySelectorAll('.error-message');
