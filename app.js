@@ -155,10 +155,10 @@ function initContactForm() {
     form.style.display = 'none';
     successState.style.display = 'block';
     
-    // Redirect to WhatsApp after 2 seconds
+    // Redirect to WhatsApp after 1 second (reliable across all browser popup blockers)
     setTimeout(() => {
-      window.open(whatsappUrl, '_blank');
-    }, 2000);
+      window.location.href = whatsappUrl;
+    }, 1000);
   });
 }
 

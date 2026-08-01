@@ -146,7 +146,7 @@ Your Business Launch Package includes:
 #### Option 2: Learn to Build Your Own Website
 Want to build and manage your own website instead? Our recorded course teaches you how to create professional websites from scratch, even if you're just getting started. Learn at your own pace and build a website you can confidently manage yourself.
 
-The full Business Launch Package is ₦80,000. Learn to build it yourself for ₦9,999.
+Learn to build it yourself for ₦9,999.
 
 **Button:** Get the Course
 
