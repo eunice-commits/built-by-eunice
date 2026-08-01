@@ -1,0 +1,7 @@
+# Local Netlify folder
+.netlify
+.vercel
+# Node modules
+node_modules
+dist
+.env
