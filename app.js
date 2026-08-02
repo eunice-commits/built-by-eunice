@@ -407,6 +407,9 @@ window.toggleReadMore = function(btn) {
 function initTikTokContactTracking() {
   const whatsappLinks = document.querySelectorAll('a[href*="wa.me"]');
   whatsappLinks.forEach(link => {
+    if (link.dataset.tiktokTracked === 'true') return;
+    link.dataset.tiktokTracked = 'true';
+    
     link.addEventListener('click', () => {
       if (typeof window.ttq !== 'undefined') {
         window.ttq.track('Contact', {
