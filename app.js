@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initFAQAccordion();
   initContactForm();
   initSmoothScroll();
+  initTikTokContactTracking();
   
   // Initialize projects carousel
   initCarouselController(
@@ -157,6 +158,11 @@ function initContactForm() {
     message += `I just completed the form on your website.`;
     
     const whatsappUrl = `https://wa.me/${recipientNumber}?text=${encodeURIComponent(message)}`;
+    
+    // Fire TikTok Contact event on successful form submission
+    if (typeof window.ttq !== 'undefined') {
+      window.ttq.track('Contact');
+    }
     
     // Hide form, show success state
     form.style.display = 'none';
@@ -372,3 +378,15 @@ window.toggleReadMore = function(btn) {
     btn.textContent = 'Read More';
   }
 };
+
+/* --- TIKTOK CONTACT TRACKING --- */
+function initTikTokContactTracking() {
+  const whatsappLinks = document.querySelectorAll('a[href*="wa.me"]');
+  whatsappLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      if (typeof window.ttq !== 'undefined') {
+        window.ttq.track('Contact');
+      }
+    });
+  });
+}
