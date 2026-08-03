@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initFAQAccordion();
   initContactForm();
   initSmoothScroll();
-  initTikTokContactTracking();
   
   // Initialize projects carousel
   initCarouselController(
@@ -158,35 +157,6 @@ function initContactForm() {
     message += `I just completed the form on your website.`;
     
     const whatsappUrl = `https://wa.me/${recipientNumber}?text=${encodeURIComponent(message)}`;
-    
-    // Fire TikTok Contact event with Advanced Matching on successful form submission
-    const emailVal = emailAddress.value.trim();
-    const phoneVal = cleanWhatsapp;
-    const formattedPhoneE164 = phoneVal.startsWith('0') ? '+234' + phoneVal.substring(1) : '+' + phoneVal.replace('+', '');
-    
-    Promise.all([hashPII(emailVal), hashPII(formattedPhoneE164)]).then(([hashedEmail, hashedPhone]) => {
-      if (typeof window.ttq !== 'undefined') {
-        const identifyData = {};
-        if (hashedEmail) identifyData.email = hashedEmail;
-        if (hashedPhone) identifyData.phone_number = hashedPhone;
-        
-        if (Object.keys(identifyData).length > 0) {
-          window.ttq.identify(identifyData);
-        }
-        
-        window.ttq.track('Contact', {
-          "contents": [
-            {
-              "content_id": "business-launch-package",
-              "content_type": "product",
-              "content_name": "Business Launch Package"
-            }
-          ],
-          "value": 80000,
-          "currency": "NGN"
-        });
-      }
-    });
     
     // Hide form, show success state
     form.style.display = 'none';
@@ -403,43 +373,3 @@ window.toggleReadMore = function(btn) {
   }
 };
 
-/* --- TIKTOK CONTACT TRACKING --- */
-function initTikTokContactTracking() {
-  const whatsappLinks = document.querySelectorAll('a[href*="wa.me"]');
-  whatsappLinks.forEach(link => {
-    if (link.dataset.tiktokTracked === 'true') return;
-    link.dataset.tiktokTracked = 'true';
-    
-    link.addEventListener('click', () => {
-      if (typeof window.ttq !== 'undefined') {
-        window.ttq.track('Contact', {
-          "contents": [
-            {
-              "content_id": "business-launch-package",
-              "content_type": "product",
-              "content_name": "Business Launch Package"
-            }
-          ],
-          "value": 80000,
-          "currency": "NGN"
-        });
-      }
-    });
-  });
-}
-
-async function hashPII(value) {
-  if (!value) return null;
-  const cleanValue = value.trim().toLowerCase();
-  if (typeof crypto !== 'undefined' && crypto.subtle) {
-    try {
-      const msgBuffer = new TextEncoder().encode(cleanValue);
-      const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
-      const hashArray = Array.from(new Uint8Array(hashBuffer));
-      return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-    } catch (e) {
-      console.error('[TikTok Tracking] Hash error:', e);
-    }
-  }
-  return null;
-}
