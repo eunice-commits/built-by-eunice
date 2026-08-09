@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initFAQAccordion();
   initContactForm();
   initSmoothScroll();
+  initMetaPixelTracking();
   
   // Initialize projects carousel
   initCarouselController(
@@ -372,4 +373,19 @@ window.toggleReadMore = function(btn) {
     btn.textContent = 'Read More';
   }
 };
+
+/* --- META PIXEL LEAD TRACKING --- */
+function initMetaPixelTracking() {
+  const whatsappLinks = document.querySelectorAll('a[href*="wa.me"]');
+  whatsappLinks.forEach(link => {
+    if (link.dataset.metaTracked === 'true') return;
+    link.dataset.metaTracked = 'true';
+    
+    link.addEventListener('click', () => {
+      if (typeof window.fbq !== 'undefined') {
+        window.fbq('track', 'Lead');
+      }
+    });
+  });
+}
 
