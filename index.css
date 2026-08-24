@@ -1836,9 +1836,9 @@ footer {
 }
 .images-two-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin-bottom: 14px;
+  grid-template-columns: 1fr; /* Stack images vertically to ensure maximum readability and prominence */
+  gap: 16px;
+  margin-bottom: 16px;
 }
 .image-wrapper {
   aspect-ratio: 3 / 4; /* Force both images to have identical size */
