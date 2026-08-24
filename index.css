@@ -1848,6 +1848,7 @@ footer {
   background-color: var(--color-surface);
   position: relative;
   width: 100%;
+  margin-bottom: 16px;
 }
 .image-wrapper img {
   width: 100%;
