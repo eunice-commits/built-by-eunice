@@ -1815,9 +1815,12 @@ footer {
    ========================================================================== */
 .showcase-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2x2 on mobile/tablet */
+  grid-template-columns: 1fr; /* Single column on mobile to maximize legibility */
   gap: 24px;
   margin-top: 40px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .showcase-card {
   display: flex;
@@ -1958,10 +1961,26 @@ footer {
   color: var(--color-text-secondary);
 }
 
+@media (min-width: 576px) and (max-width: 991px) {
+  .showcase-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
+    gap: 20px;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .showcase-card {
+    padding: 16px;
+  }
+}
+
 @media (min-width: 992px) {
   .showcase-grid {
-    grid-template-columns: repeat(4, 1fr); /* 4 columns in one row */
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr); /* 2x2 grid on desktop */
+    gap: 32px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .showcase-card {
     padding: 24px;
