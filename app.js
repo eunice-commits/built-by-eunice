@@ -149,7 +149,7 @@ function initContactForm() {
     
     let message = `Hello, my name is ${businessName.value.trim()}.\n`;
     message += `I own a business that offers ${businessType.value.trim()}.\n`;
-    message += `I would like to claim the ₦80,000 Business Launch Package.\n\n`;
+    message += `I would like to claim the ₦90,000 Business Launch Package.\n\n`;
     message += `Reason for getting a website:\n${websiteReason.value.trim()}\n\n`;
     
     if (emailAddress.value.trim()) {
