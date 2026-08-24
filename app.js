@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initContactForm();
   initSmoothScroll();
   initMetaPixelTracking();
+  initLiveOGImages();
   
   // Initialize projects carousel
   initCarouselController(
@@ -386,6 +387,26 @@ function initMetaPixelTracking() {
         window.fbq('track', 'Lead');
       }
     });
+  });
+}
+
+/* --- AUTO OG IMAGE SCRAPER --- */
+function initLiveOGImages() {
+  const previewImages = document.querySelectorAll('.og-preview-img');
+  previewImages.forEach(img => {
+    const targetUrl = img.getAttribute('data-url');
+    if (!targetUrl) return;
+
+    fetch(`https://api.microlink.io/?url=${encodeURIComponent(targetUrl)}`)
+      .then(response => response.json())
+      .then(result => {
+        if (result.status === 'success' && result.data && result.data.image && result.data.image.url) {
+          img.src = result.data.image.url;
+        }
+      })
+      .catch(err => {
+        console.warn(`Could not automatically retrieve live Open Graph preview for: ${targetUrl}`, err);
+      });
   });
 }
 
