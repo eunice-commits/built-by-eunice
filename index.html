@@ -27,6 +27,11 @@
   <meta name="twitter:description" content="Build trust, attract more customers, and grow your business with a professionally designed website. SEO, Google Business Profile, and 1 week support included.">
   <meta name="twitter:image" content="https://promo.builtbyoma.com.ng/images/og-image.png">
 
+  <!-- Google Fonts: Fraunces (Serif), Plus Jakarta Sans (Sans), Caveat (Script) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="index.css">
   <!-- TikTok Pixel Code Start -->
   <script>
@@ -61,23 +66,15 @@
 </head>
 <body>
 
-  <!-- --- HEADER / NAVIGATION --- -->
-  <header>
+  <!-- --- HEADER / NAVIGATION (Single Page Minimal Navigation) --- -->
+  <header class="site-header">
     <div class="container nav-container">
       <a href="#" class="logo">
         Built by <span>Oma</span>
       </a>
-      <nav class="nav-links">
-        <a href="#about">About</a>
-        <a href="#package">Package</a>
-        <a href="#faq">FAQ</a>
-        <a href="https://wa.me/message/6P2BCB7RTWDBH1" target="_blank" rel="noopener noreferrer" class="nav-cta">Build My Website</a>
-      </nav>
-      <button class="hamburger" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+      <div class="header-action">
+        <a href="https://wa.me/message/6P2BCB7RTWDBH1" target="_blank" rel="noopener noreferrer" class="btn btn-header">Build My Website</a>
+      </div>
     </div>
   </header>
 
@@ -86,45 +83,155 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-text">
-          <div class="hero-tagline">Launch Special Offer</div>
+          <div class="hero-tagline">Promo Launch Plan</div>
           <h1>Look Like a Business Customers Can Trust Online.</h1>
-          <div class="hero-image-container">
-            <img src="images/hero-mockup.jpg" alt="Premium Business Website Mockup on Desktop and Mobile Display" width="600" height="400">
-          </div>
-          <p class="hero-desc"><strong>The first 3 business owners got this Business Launch Package for <del>₦80,000</del>. That batch is gone. You can still join the second batch at ₦90,000, but only few spots remain before it goes to ₦150,000.</strong></p>
+          <p class="hero-desc">Get a professional website, Google Business registration and an ads guide, everything you need to look credible, get found and turn more visitors into paying customers.</p>
           
           <div class="hero-cta-group">
-            <a href="https://wa.me/message/6P2BCB7RTWDBH1" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Get My Website</a>
-            <a href="https://wa.me/2347077708664" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Talk to Us on WhatsApp</a>
+            <a href="https://wa.me/message/6P2BCB7RTWDBH1" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-hero">
+              <span>Build My Website</span>
+              <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18" class="btn-arrow"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+            </a>
+          </div>
+
+          <div class="hero-micro-proof">
+            <span>Fast setup</span>
+            <span class="micro-dot">&bull;</span>
+            <span>Simple process</span>
+            <span class="micro-dot">&bull;</span>
+            <span>Ongoing support</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="script-annotation">
+            <span>Your business has a home online</span>
+            <svg class="annotation-arrow" width="38" height="26" viewBox="0 0 38 26" fill="none">
+              <path d="M3 5C12 3 26 8 32 20M32 20L25 20M32 20L34 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <!-- Desktop Mockup Combo (Laptop + Mobile) -->
+          <div class="mockup-combo desktop-only">
+            <div class="laptop-mockup">
+              <div class="laptop-lid">
+                <div class="laptop-camera"></div>
+                <div class="laptop-screen">
+                  <img src="images/eucharia-desktop-mockup.jpg" alt="Eucharia Luxury Hair website mockup created by Built by Oma" width="1024" height="576" loading="eager">
+                </div>
+              </div>
+              <div class="laptop-base">
+                <div class="laptop-notch"></div>
+              </div>
+            </div>
+
+            <div class="phone-companion">
+              <div class="phone-frame">
+                <div class="phone-speaker"></div>
+                <div class="phone-screen">
+                  <img src="images/eucharia-mobile-mockup.jpg" alt="Eucharia Luxury Hair mobile website mockup created by Built by Oma" width="552" height="1024" loading="eager">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mobile Mockup (Dedicated Smartphone Showcase) -->
+          <div class="mockup-mobile-view mobile-only">
+            <div class="phone-frame hero-phone-main">
+              <div class="phone-speaker"></div>
+              <div class="phone-screen">
+                <img src="images/eucharia-mobile-mockup.jpg" alt="Eucharia Luxury Hair mobile website mockup created by Built by Oma" width="552" height="1024" loading="eager">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- --- TRUST STATEMENT BAR --- -->
-    <div class="trust-bar">
-      <div class="container trust-content">
-        <div class="trust-item">
-          <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l5-5z" clip-rule="evenodd"/></svg>
-          <span>No hidden charges</span>
+    <!-- --- PAIN / READINESS SECTION --- -->
+    <section class="pain-section section-padding">
+      <div class="container pain-grid">
+        <div class="pain-content">
+          <div class="pain-kicker">YOUR BUSINESS IS GROWING,</div>
+          <h2>But Is Your Online Presence Ready?</h2>
+          <div class="accent-bar"></div>
+
+          <div class="pain-paragraphs">
+            <p>If you are tired of replying to random DMs from people who ask lots of questions and end up not buying anything from you, this is for you.</p>
+            <p>Or if you are already preparing for the Christmas rush, you already know what is coming.</p>
+            <p>More customers will be searching for what they need. More businesses will be advertising. More people will be comparing their options.</p>
+            <p class="pain-highlight"><strong>Will your business be ready? Will it be visible when people start looking?</strong></p>
+            <p>And most importantly, what happens if you wake up one morning and find out your TikTok or Instagram account has been restricted, suspended or hacked?</p>
+            <p class="pain-highlight"><strong>That can be very frustrating.</strong></p>
+            <p>Your business deserves a professional home online.</p>
+            <p>And a professional website gives your business its own home. A place where customers can find you, understand your offer and get answers to their questions.</p>
+          </div>
         </div>
-        <div class="trust-item">
-          <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l5-5z" clip-rule="evenodd"/></svg>
-          <span>No complicated process</span>
-        </div>
-        <div class="trust-item">
-          <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l5-5z" clip-rule="evenodd"/></svg>
-          <span>Live and working guarantee</span>
+
+        <div class="pain-cards">
+          <!-- Card 1 -->
+          <div class="pain-card pain-card-dms">
+            <div class="pain-card-text">
+              <div class="pain-card-icon icon-dms">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                  <circle cx="9" cy="10" r="1" fill="currentColor"/>
+                  <circle cx="15" cy="10" r="1" fill="currentColor"/>
+                </svg>
+              </div>
+              <h3>Too many DMs, not enough buyers</h3>
+              <p>You spend hours answering questions, explaining your business and sending pictures, only for people to disappear.</p>
+            </div>
+            <div class="pain-card-media">
+              <img src="images/pain-dms.png" alt="Customer messages asking questions in direct message" loading="lazy">
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="pain-card pain-card-christmas">
+            <div class="pain-card-text">
+              <div class="pain-card-icon icon-christmas">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                  <line x1="16" y1="2" x2="16" y2="6"/>
+                  <line x1="8" y1="2" x2="8" y2="6"/>
+                  <line x1="3" y1="10" x2="21" y2="10"/>
+                </svg>
+              </div>
+              <h3>The Christmas rush is coming</h3>
+              <p>More customers will be searching. More businesses will be advertising. More people will be comparing.</p>
+            </div>
+            <div class="pain-card-media">
+              <img src="images/pain-christmas.png" alt="Christmas gift packages with spruce sprig" loading="lazy">
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="pain-card pain-card-suspended">
+            <div class="pain-card-text">
+              <div class="pain-card-icon icon-suspended">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  <path d="M12 8v4M12 16h.01"/>
+                </svg>
+              </div>
+              <h3>One platform is not enough</h3>
+              <p>What happens if your TikTok or Instagram account is restricted, suspended or hacked?</p>
+            </div>
+            <div class="pain-card-media">
+              <img src="images/pain-suspended.png" alt="Social media app account suspended notice" loading="lazy">
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- --- CLIENT PROOF SHOWCASE --- -->
+    <!-- --- CLIENT PROOF SHOWCASE (TESTIMONIALS) --- -->
     <section id="proof" class="proof section-padding">
       <div class="container">
         <div class="section-header text-center">
-          <h2>Serious Business Owners Are Already Securing Their Spot</h2>
-          <p>Here’s what our clients who got their website at the promo price have to say. Click View Website to see the result.</p>
+          <h2>What Serious Business Owners Are Saying</h2>
+          <p>Here is what our clients who got their website at the promo price have to say. Click View Website to see the result.</p>
         </div>
         
         <div class="showcase-grid">
@@ -175,6 +282,56 @@
       </div>
     </section>
 
+    <!-- --- CLIENT STORY SECTION --- -->
+    <section class="client-story section-padding">
+      <div class="container client-story-container">
+        <div class="client-story-header text-center">
+          <div class="story-badge">Client Result</div>
+          <h2>Our Client Got a Wholesale Order Because a Customer Found Her on Google</h2>
+        </div>
+
+        <div class="client-story-grid">
+          <div class="client-story-body">
+            <div class="story-card">
+              <p>One of our clients got a website and had her business properly registered on Google.</p>
+              <p>Recently, someone was looking for a business that sells exactly what she sells.</p>
+              <p class="story-focus">Her business came up.</p>
+              <p>The customer also saw that she had a website, which added that extra layer of credibility.</p>
+              <p class="story-focus">She reached out.</p>
+              <p class="story-highlight"><strong>And she ended up booking a wholesale order.</strong></p>
+              
+              <div class="story-takeaway">
+                <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l5-5z" clip-rule="evenodd"/></svg>
+                <span>Google registration and a professional website bring ready buyers to your business.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="client-story-media">
+            <div class="video-player-container" id="clientStoryVideoContainer">
+              <div class="video-poster" id="clientStoryPoster">
+                <img src="images/eucharia-desktop-mockup.jpg" alt="Client success story preview" loading="lazy">
+                <div class="video-play-overlay">
+                  <button type="button" class="btn-play" id="playVideoBtn" aria-label="Play Client Story Video">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+                      <polygon points="5 3 19 12 5 21 5 3"/>
+                    </svg>
+                  </button>
+                  <span class="video-play-label">Watch Client Story</span>
+                </div>
+              </div>
+              <div class="video-player-frame" id="clientStoryPlayerFrame" style="display: none;">
+                <video id="clientStoryVideo" playsinline controls class="embedded-video">
+                  <source src="images/client-story.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- --- SCARCITY BLOCK --- -->
     <section class="scarcity-block section-padding">
       <div class="container text-center">
@@ -209,7 +366,7 @@
               <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
               <div>
                 <div class="feature-title">Professionally Designed Business Website</div>
-                <div class="feature-desc">Custom-built for your industry.</div>
+                <div class="feature-desc">Custom built for your industry.</div>
               </div>
             </div>
             <div class="feature-item">
@@ -221,7 +378,7 @@
             <div class="feature-item">
               <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
               <div>
-                <div class="feature-title">SEO Optimization</div>
+                <div class="feature-title">Search Engine Optimization</div>
                 <div class="feature-desc">Rank on Google search.</div>
               </div>
             </div>
@@ -235,14 +392,14 @@
             <div class="feature-item">
               <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
               <div>
-                <div class="feature-title">Free Domain & Hosting</div>
+                <div class="feature-title">Free Domain and Hosting</div>
                 <div class="feature-desc">Included for your first year.</div>
               </div>
             </div>
             <div class="feature-item">
               <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
               <div>
-                <div class="feature-title">Free Meta/TikTok Ads Guide</div>
+                <div class="feature-title">Free Meta and TikTok Ads Guide</div>
                 <div class="feature-desc">Detailed ads video and PDF.</div>
               </div>
             </div>
@@ -267,8 +424,7 @@
             <div class="pricing-badge">Save ₦60,000</div>
             <h3>Business Launch Package</h3>
             <div class="price-original">Regular Value: ₦150,000</div>
-            <div class="price-promo">₦90,000<span>/one-time</span></div>
-
+            <div class="price-promo">₦90,000<span>/one time</span></div>
 
             <a href="https://wa.me/message/6P2BCB7RTWDBH1" target="_blank" rel="noopener noreferrer" class="btn btn-submit btn-pricing">Claim My ₦90,000 Package</a>
             
@@ -280,8 +436,8 @@
           <!-- STANDALONE SUPPORT CALLOUT -->
           <div class="support-callout">
             <div class="support-callout-text">
-              <h4>Post-Launch Support</h4>
-              <p>We don't just hand over your website and walk away. You get dedicated technical support after the website goes live to help with minor fixes and queries.</p>
+              <h4>Post Launch Support</h4>
+              <p>We do not just hand over your website and walk away. You get dedicated technical support after the website goes live to help with minor fixes and queries.</p>
             </div>
             <div class="support-callout-badge">Included Free</div>
           </div>
@@ -295,7 +451,7 @@
         <div class="projects-header-container">
           <div class="section-header-left">
             <h2>Three Recent Projects</h2>
-            <p>We've had the opportunity to design websites for businesses across different industries, helping them present their brands professionally online.</p>
+            <p>We have had the opportunity to design websites for businesses across different industries, helping them present their brands professionally online.</p>
           </div>
         </div>
         <div class="projects-carousel-wrapper">
@@ -309,9 +465,9 @@
                 </a>
               </div>
               <div class="project-info">
-                <div class="project-meta">Premium Pre-Launch Website</div>
+                <div class="project-meta">Premium Pre Launch Website</div>
                 <h3>Eucharia Luxury Hair</h3>
-                <p class="project-desc-text">A premium pre-launch website built for Eucharia Chineye’s luxury human hair brand. The site features<span class="dots">...</span><span class="more-text"> a gamified Early Access experience with a spin-to-win reward system, a Reserve Spot mechanic in place of live pricing, automated email confirmations, SEO-optimized content and blog.</span><button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button></p>
+                <p class="project-desc-text">A premium pre launch website built for Eucharia Chineye’s luxury human hair brand. The site features<span class="dots">...</span><span class="more-text"> a gamified Early Access experience with a spin to win reward system, a Reserve Spot mechanic in place of live pricing, automated email confirmations, and search engine optimized content.</span><button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button></p>
               </div>
             </div>
             <div class="project-card">
@@ -322,9 +478,9 @@
                 </a>
               </div>
               <div class="project-info">
-                <div class="project-meta">Luxury Perfume E-commerce</div>
+                <div class="project-meta">Luxury Perfume Online Store</div>
                 <h3>King Redolence</h3>
-                <p class="project-desc-text">Premium e-commerce website for a luxury perfume oil brand. Features<span class="dots">...</span><span class="more-text"> an AI-powered scent quiz that matches customers to their perfect fragrance, a collector loyalty points system, six tiered reseller packages, full shopping cart, and bank transfer checkout flow.</span><button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button></p>
+                <p class="project-desc-text">Premium online store website for a luxury perfume oil brand. Features<span class="dots">...</span><span class="more-text"> a smart scent quiz that matches customers to their perfect fragrance, a collector loyalty points system, six tiered reseller packages, full shopping cart, and bank transfer checkout flow.</span><button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button></p>
               </div>
             </div>
             <div class="project-card">
@@ -335,54 +491,13 @@
                 </a>
               </div>
               <div class="project-info">
-                <div class="project-meta">Multi-Category E-commerce</div>
+                <div class="project-meta">Multi Category Online Store</div>
                 <h3>Cee Collections</h3>
-                <p class="project-desc-text">Full e-commerce website built for a Nigerian personal brand selling herbal wellness products, jewelry, and fashion eyewear. The site includes<span class="dots">...</span><span class="more-text"> multi-category product pages, WhatsApp order flow, customer testimonials, a distributor signup section, and nationwide shipping information.</span><button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button></p>
+                <p class="project-desc-text">Full online store website built for a Nigerian personal brand selling herbal wellness products, jewelry, and fashion eyewear. The site includes<span class="dots">...</span><span class="more-text"> multi category product pages, WhatsApp order flow, customer testimonials, a distributor signup section, and nationwide shipping information.</span><button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button></p>
               </div>
             </div>
           </div>
           <button class="projects-carousel-btn next" aria-label="Next Project">&gt;</button>
-        </div>
-      </div>
-    </section>
-
-    <!-- --- TESTIMONIALS --- -->
-    <section class="testimonials section-padding">
-      <div class="container">
-        <div class="section-header">
-          <h2>What Our Clients Say</h2>
-          <p>Nothing builds trust like hearing from business owners we've worked with. Here is what some of our clients have to say about their experience.</p>
-        </div>
-        <div class="testimonials-carousel-wrapper">
-          <button class="testimonials-carousel-btn prev" aria-label="Previous Testimonial">&lt;</button>
-          <div class="testimonials-grid">
-            <div class="testimonial-card">
-              <div class="testimonial-frame">
-                <img src="images/testimonial-1.jpg?v=1" alt="Customer WhatsApp review screenshot" class="testimonial-img" loading="lazy">
-              </div>
-            </div>
-            <div class="testimonial-card">
-              <div class="testimonial-frame">
-                <img src="images/testimonial-2.jpg?v=1" alt="WhatsApp testimonial screenshot" class="testimonial-img" loading="lazy">
-              </div>
-            </div>
-            <div class="testimonial-card">
-              <div class="testimonial-frame">
-                <img src="images/testimonial-3.jpg?v=1" alt="Facebook client feedback screenshot" class="testimonial-img" loading="lazy">
-              </div>
-            </div>
-            <div class="testimonial-card">
-              <div class="testimonial-frame">
-                <img src="images/testimonial-4.jpg?v=1" alt="WhatsApp project confirmation screenshot" class="testimonial-img" loading="lazy">
-              </div>
-            </div>
-            <div class="testimonial-card">
-              <div class="testimonial-frame">
-                <img src="images/testimonial-5.jpg?v=1" alt="WhatsApp website feedback screenshot" class="testimonial-img" loading="lazy">
-              </div>
-            </div>
-          </div>
-          <button class="testimonials-carousel-btn next" aria-label="Next Testimonial">&gt;</button>
         </div>
       </div>
     </section>
@@ -414,13 +529,13 @@
           <div class="path-card">
             <div class="path-info">
               <h3>Option 1: Build My Website</h3>
-              <p>Focus on running your business while we handle your entire online presence. You'll get a professional custom-designed website that attracts and converts customers.</p>
+              <p>Focus on running your business while we handle your entire online presence. You will get a professional custom designed website that attracts and converts customers.</p>
               <ul class="path-features">
                 <li><svg fill="currentColor" viewBox="0 0 20 20" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Custom website design</li>
                 <li><svg fill="currentColor" viewBox="0 0 20 20" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Mobile responsive & SEO optimized</li>
                 <li><svg fill="currentColor" viewBox="0 0 20 20" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Google Business Profile setup</li>
                 <li><svg fill="currentColor" viewBox="0 0 20 20" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> WhatsApp & Contact Integration</li>
-                <li><svg fill="currentColor" viewBox="0 0 20 20" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Free Meta/TikTok Ads Starter Guide</li>
+                <li><svg fill="currentColor" viewBox="0 0 20 20" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Free Meta/TikTok Ads Guide</li>
               </ul>
             </div>
             <a href="https://wa.me/message/6P2BCB7RTWDBH1" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-path">Get My Website</a>
@@ -428,14 +543,14 @@
           <div class="path-card">
             <div class="path-info">
               <h3>Option 2: Learn to Build Your Own</h3>
-              <p>Want to build and manage your own website instead? Our step-by-step recorded video course teaches you how to design websites from scratch with no coding required.</p>
+              <p>Want to build and manage your own website instead? Our recorded step by step video course teaches you how to design websites from scratch with no coding required.</p>
               <p class="path-price-comparison" style="font-weight: 700; margin-top: 16px; margin-bottom: 16px; font-size: 1.05rem; color: var(--color-text-primary);">Learn to build it yourself for ₦9,999.</p>
               <ul class="path-features">
                 <li><svg fill="currentColor" viewBox="0 0 20 20" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Access to all video lessons</li>
                 <li><svg fill="currentColor" viewBox="0 0 20 20" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> No coding or experience required</li>
                 <li><svg fill="currentColor" viewBox="0 0 20 20" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Learn domain, hosting, and layout design</li>
                 <li><svg fill="currentColor" viewBox="0 0 20 20" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Learn integrations (Forms, Payments)</li>
-                <li><svg fill="currentColor" viewBox="0 0 20 20" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Self-paced, learn at your own speed</li>
+                <li><svg fill="currentColor" viewBox="0 0 20 20" width="18" height="18"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Self paced, learn at your own speed</li>
               </ul>
             </div>
             <a href="https://flutterwave.com/pay/buildyourself" target="_blank" class="btn btn-secondary btn-path">Get the Course</a>
@@ -473,7 +588,7 @@
           <div class="faq-item">
             <button class="faq-question">Will my website work on mobile phones? <span class="faq-icon">+</span></button>
             <div class="faq-answer">
-              <p>Yes. Every website is custom-designed to work seamlessly across phones, tablets, laptops, and desktop computers.</p>
+              <p>Yes. Every website is custom designed to work seamlessly across phones, tablets, laptops, and desktop computers.</p>
             </div>
           </div>
           <div class="faq-item">
@@ -485,7 +600,7 @@
           <div class="faq-item">
             <button class="faq-question">Will my business appear on Google? <span class="faq-icon">+</span></button>
             <div class="faq-answer">
-              <p>We'll optimize your website for search engines and set up your Google Business Profile to improve your local online visibility. While no one can guarantee first page rankings, your website will be built following industry-best SEO practices.</p>
+              <p>We'll optimize your website for search engines and set up your Google Business Profile to improve your local online visibility. While no one can guarantee first page rankings, your website will be built following industry best SEO practices.</p>
             </div>
           </div>
           <div class="faq-item">

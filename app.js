@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initSmoothScroll();
   initMetaPixelTracking();
   initLiveOGImages();
+  initClientStoryVideo();
   
   // Initialize projects carousel
   initCarouselController(
@@ -14,16 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
     '.projects-carousel-btn.prev', 
     '.projects-carousel-btn.next', 
     4000
-  );
-  
-  // Initialize testimonials carousel
-  initCarouselController(
-    '.testimonials-carousel-wrapper', 
-    '.testimonials-grid', 
-    '.testimonial-card', 
-    '.testimonials-carousel-btn.prev', 
-    '.testimonials-carousel-btn.next', 
-    4500
   );
 });
 
@@ -408,5 +399,33 @@ function initLiveOGImages() {
         console.warn(`Could not automatically retrieve live Open Graph preview for: ${targetUrl}`, err);
       });
   });
+}
+
+/* --- CLIENT STORY VIDEO PLAYER --- */
+function initClientStoryVideo() {
+  const playBtn = document.getElementById('playVideoBtn');
+  const poster = document.getElementById('clientStoryPoster');
+  const frame = document.getElementById('clientStoryPlayerFrame');
+  const video = document.getElementById('clientStoryVideo');
+
+  if (!playBtn || !poster || !frame || !video) return;
+
+  const startPlayback = () => {
+    poster.style.display = 'none';
+    frame.style.display = 'block';
+    const playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise.catch(err => {
+        console.warn('Video auto-playback was prevented:', err);
+      });
+    }
+  };
+
+  playBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    startPlayback();
+  });
+
+  poster.addEventListener('click', startPlayback);
 }
 
