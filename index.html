@@ -72,9 +72,6 @@
       <a href="#" class="logo">
         Built by <span>Oma</span>
       </a>
-      <div class="header-action">
-        <a href="https://wa.me/message/6P2BCB7RTWDBH1" target="_blank" rel="noopener noreferrer" class="btn btn-header">Build My Website</a>
-      </div>
     </div>
   </header>
 
@@ -83,8 +80,8 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-text">
-          <div class="hero-tagline">Promo Launch Plan</div>
-          <h1>Look Like a Business Customers Can Trust Online.</h1>
+          <div class="hero-tagline">PROMO LAUNCH PLAN</div>
+          <h1>Look Like a<br>Business Customers<br>Can Trust Online.</h1>
           <p class="hero-desc">Get a professional website, Google Business registration and an ads guide, everything you need to look credible, get found and turn more visitors into paying customers.</p>
           
           <div class="hero-cta-group">
@@ -180,7 +177,7 @@
                 </svg>
               </div>
               <h3>Too many DMs, not enough buyers</h3>
-              <p>You spend hours answering questions, explaining your business and sending pictures, only for people to disappear.</p>
+              <p><span class="underline-accent">You spend hours</span> answering questions, explaining your business <span class="underline-accent">and sending pictures</span>, only for people to disappear.</p>
             </div>
             <div class="pain-card-media">
               <img src="images/pain-dms.png" alt="Customer messages asking questions in direct message" loading="lazy">
@@ -309,22 +306,17 @@
 
           <div class="client-story-media">
             <div class="video-player-container" id="clientStoryVideoContainer">
-              <div class="video-poster" id="clientStoryPoster">
-                <img src="images/eucharia-desktop-mockup.jpg" alt="Client success story preview" loading="lazy">
-                <div class="video-play-overlay">
-                  <button type="button" class="btn-play" id="playVideoBtn" aria-label="Play Client Story Video">
-                    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
-                      <polygon points="5 3 19 12 5 21 5 3"/>
-                    </svg>
-                  </button>
-                  <span class="video-play-label">Watch Client Story</span>
-                </div>
-              </div>
-              <div class="video-player-frame" id="clientStoryPlayerFrame" style="display: none;">
-                <video id="clientStoryVideo" playsinline controls class="embedded-video">
-                  <source src="images/client-story.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
+              <video id="clientStoryVideo" playsinline controls preload="metadata" class="embedded-video" src="images/IMG_2630.MP4#t=0.001">
+                <source src="images/IMG_2630.MP4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-play-overlay" id="videoPlayOverlay">
+                <button type="button" class="btn-play" id="playVideoBtn" aria-label="Play Client Story Video">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+                    <polygon points="5 3 19 12 5 21 5 3"/>
+                  </svg>
+                </button>
+                <span class="video-play-label">Watch Client Story</span>
               </div>
             </div>
           </div>
@@ -717,11 +709,6 @@
     </svg>
   </a>
 
-  <!-- Mobile Sticky Bar -->
-  <div class="mobile-sticky-bar">
-    <a href="https://wa.me/message/6P2BCB7RTWDBH1" target="_blank" rel="noopener noreferrer" class="mobile-sticky-btn">Build My Website</a>
-  </div>
-
-  <script src="app.js?v=12"></script>
+  <script src="app.js?v=13"></script>
 </body>
 </html>

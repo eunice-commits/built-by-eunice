@@ -403,29 +403,39 @@ function initLiveOGImages() {
 
 /* --- CLIENT STORY VIDEO PLAYER --- */
 function initClientStoryVideo() {
+  const overlay = document.getElementById('videoPlayOverlay');
   const playBtn = document.getElementById('playVideoBtn');
-  const poster = document.getElementById('clientStoryPoster');
-  const frame = document.getElementById('clientStoryPlayerFrame');
   const video = document.getElementById('clientStoryVideo');
 
-  if (!playBtn || !poster || !frame || !video) return;
+  if (!video) return;
 
   const startPlayback = () => {
-    poster.style.display = 'none';
-    frame.style.display = 'block';
+    if (overlay) {
+      overlay.classList.add('hidden');
+    }
     const playPromise = video.play();
     if (playPromise !== undefined) {
       playPromise.catch(err => {
-        console.warn('Video auto-playback was prevented:', err);
+        console.warn('Video playback was prevented:', err);
       });
     }
   };
 
-  playBtn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    startPlayback();
-  });
+  if (playBtn) {
+    playBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      startPlayback();
+    });
+  }
 
-  poster.addEventListener('click', startPlayback);
+  if (overlay) {
+    overlay.addEventListener('click', startPlayback);
+  }
+
+  video.addEventListener('ended', () => {
+    if (overlay) {
+      overlay.classList.remove('hidden');
+    }
+  });
 }
 
