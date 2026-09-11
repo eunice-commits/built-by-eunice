@@ -20,6 +20,9 @@
   --color-accent-light: #FDF4E7;         /* Delicate Amber Cream */
   --color-accent-rgb: 201, 122, 30;
 
+  --color-yellow: hsl(38, 92%, 50%);     /* Bright Brand Yellow / Amber */
+  --color-yellow-hover: hsl(38, 92%, 44%);
+
   --color-bg: #FAF8F5;                   /* Warm Linen / Cream Page Background */
   --color-surface: #F3EFEA;              /* Subtle Warm Tint for Alternating Sections */
   --color-surface-card: #FFFFFF;         /* Crisp White Card Surface */
@@ -251,11 +254,23 @@ button {
 .btn-hero {
   padding: 16px 36px;
   font-size: 1.05rem;
+  font-weight: 700;
   border-radius: var(--radius-full);
-  box-shadow: 0 6px 20px rgba(34, 55, 43, 0.25);
+  background-color: var(--color-yellow);
+  color: #1C241E;
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.35);
+  border: none;
+}
+
+.btn-hero:hover {
+  background-color: var(--color-yellow-hover);
+  color: #1C241E;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.45);
 }
 
 .btn-arrow {
+  color: #1C241E;
   transition: transform 0.25s ease;
 }
 
@@ -584,15 +599,11 @@ button {
   font-size: 2.1rem;
   line-height: 1.22;
   color: var(--color-text-primary);
-  margin-bottom: 14px;
+  margin-bottom: 24px;
 }
 
 .accent-bar {
-  width: 48px;
-  height: 3px;
-  background-color: var(--color-accent);
-  border-radius: 2px;
-  margin-bottom: 24px;
+  display: none !important;
 }
 
 .pain-paragraphs p {
@@ -732,6 +743,14 @@ button {
 
   .pain-paragraphs p {
     font-size: 1.08rem;
+  }
+}
+
+/* Mobile: show ONLY Christmas Rush card immediately after long text */
+@media (max-width: 991px) {
+  .pain-card-dms,
+  .pain-card-suspended {
+    display: none !important;
   }
 }
 
@@ -1242,19 +1261,22 @@ button {
 
 .btn-pricing {
   width: 100%;
-  background-color: var(--color-accent);
-  color: #FFFFFF;
+  background-color: var(--color-yellow) !important;
+  color: #1C241E !important;
+  font-weight: 700;
   font-size: 1.05rem;
   padding: 16px;
   border-radius: var(--radius-md);
-  box-shadow: 0 4px 14px rgba(201, 122, 30, 0.35);
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.35);
+  border: none;
+  transition: var(--transition-smooth);
 }
 
 .btn-pricing:hover {
-  background-color: var(--color-accent-hover);
-  color: #FFFFFF;
+  background-color: var(--color-yellow-hover) !important;
+  color: #1C241E !important;
   transform: translateY(-2px);
-  box-shadow: 0 8px 22px rgba(201, 122, 30, 0.45);
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.45);
 }
 
 .pricing-terms {
