@@ -187,18 +187,16 @@ button {
 }
 
 .logo {
-  font-family: var(--font-heading);
-  font-size: 1.45rem;
-  font-weight: 700;
-  color: var(--color-text-primary);
-  letter-spacing: -0.02em;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 4px;
 }
 
-.logo span {
-  color: var(--color-accent);
+.site-logo-img {
+  height: 44px;
+  width: auto;
+  max-height: 48px;
+  display: block;
+  object-fit: contain;
 }
 
 .btn-header {
