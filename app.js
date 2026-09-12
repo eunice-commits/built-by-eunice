@@ -151,6 +151,14 @@ function initContactForm() {
     
     const whatsappUrl = `https://wa.me/${recipientNumber}?text=${encodeURIComponent(message)}`;
     
+    // Track conversion events on form submission
+    if (typeof window.fbq !== 'undefined') {
+      window.fbq('track', 'Lead');
+    }
+    if (typeof window.ttq !== 'undefined' && typeof window.ttq.track === 'function') {
+      window.ttq.track('SubmitForm');
+    }
+
     // Hide form, show success state
     form.style.display = 'none';
     successState.style.display = 'block';
@@ -376,6 +384,9 @@ function initMetaPixelTracking() {
     link.addEventListener('click', () => {
       if (typeof window.fbq !== 'undefined') {
         window.fbq('track', 'Lead');
+      }
+      if (typeof window.ttq !== 'undefined' && typeof window.ttq.track === 'function') {
+        window.ttq.track('Contact');
       }
     });
   });
