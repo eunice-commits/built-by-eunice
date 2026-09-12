@@ -86,7 +86,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  padding-bottom: 0;
+  padding-bottom: 74px; /* Space for mobile sticky bar */
 }
 
 h1, h2, h3, h4 {
@@ -1901,12 +1901,53 @@ footer {
 }
 
 /* ==========================================================================
-   17. FLOATING WHATSAPP BUTTON
+   17. MOBILE STICKY BAR & FLOATING WHATSAPP
    ========================================================================== */
+.mobile-sticky-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(250, 248, 245, 0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 12px 20px;
+  border-top: 1px solid var(--color-border);
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.05);
+  z-index: 999;
+}
+
+.mobile-sticky-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--color-yellow);
+  color: #1C241E;
+  padding: 13px;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 0.98rem;
+  min-height: 48px;
+  box-shadow: 0 4px 14px rgba(245, 158, 11, 0.3);
+  transition: var(--transition-smooth);
+}
+
+.mobile-sticky-btn:hover {
+  background-color: var(--color-yellow-hover);
+  color: #1C241E;
+}
+
+@media (min-width: 992px) {
+  .mobile-sticky-bar {
+    display: none !important;
+  }
+}
+
 /* Floating WhatsApp Button */
 .whatsapp-float {
   position: fixed;
-  bottom: 24px;
+  bottom: 86px;
   right: 20px;
   width: 52px;
   height: 52px;
