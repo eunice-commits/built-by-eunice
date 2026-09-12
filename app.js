@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initMetaPixelTracking();
   initLiveOGImages();
   initClientStoryVideo();
+  initHeroVideo();
   
   // Initialize projects carousel
   initCarouselController(
@@ -450,3 +451,52 @@ function initClientStoryVideo() {
   });
 }
 
+/* --- HERO MOBILE VIDEO AUTOPLAY & SOUND TOGGLE --- */
+function initHeroVideo() {
+  const video = document.getElementById('heroMobileVideo');
+  const soundToggle = document.getElementById('heroSoundToggle');
+  if (!video) return;
+
+  // Ensure muted and playsinline for mobile background autoplay
+  video.muted = true;
+  video.defaultMuted = true;
+
+  const tryAutoplay = () => {
+    const playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise.catch(() => {
+        // If autoplay is delayed/restricted by browser power-saving, trigger on first user gesture
+        const resumeOnInteraction = () => {
+          video.play().catch(() => {});
+          window.removeEventListener('touchstart', resumeOnInteraction);
+          window.removeEventListener('scroll', resumeOnInteraction);
+        };
+        window.addEventListener('touchstart', resumeOnInteraction, { passive: true, once: true });
+        window.addEventListener('scroll', resumeOnInteraction, { passive: true, once: true });
+      });
+    }
+  };
+
+  tryAutoplay();
+
+  // Sound toggle control
+  if (soundToggle) {
+    const mutedIcon = soundToggle.querySelector('.sound-muted');
+    const unmutedIcon = soundToggle.querySelector('.sound-unmuted');
+
+    soundToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (video.muted) {
+        video.muted = false;
+        if (mutedIcon) mutedIcon.style.display = 'none';
+        if (unmutedIcon) unmutedIcon.style.display = 'block';
+        soundToggle.setAttribute('aria-label', 'Mute sound');
+      } else {
+        video.muted = true;
+        if (mutedIcon) mutedIcon.style.display = 'block';
+        if (unmutedIcon) unmutedIcon.style.display = 'none';
+        soundToggle.setAttribute('aria-label', 'Unmute sound');
+      }
+    });
+  }
+}

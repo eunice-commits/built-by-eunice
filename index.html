@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.css?v=16">
   <!-- TikTok Pixel Code Start -->
   <script>
   !function (w, d, t) {
@@ -136,8 +136,30 @@
           <div class="mockup-mobile-view mobile-only">
             <div class="phone-frame hero-phone-main">
               <div class="phone-speaker"></div>
-              <div class="phone-screen">
-                <img src="images/eucharia-mobile-mockup.jpg" alt="Eucharia Luxury Hair mobile website mockup created by Built by Oma" width="552" height="1024" loading="eager">
+              <div class="phone-screen hero-phone-screen">
+                <video 
+                  id="heroMobileVideo" 
+                  class="hero-mockup-video" 
+                  autoplay 
+                  muted 
+                  loop 
+                  playsinline 
+                  preload="metadata"
+                  poster="images/eucharia-mobile-mockup.jpg">
+                  <source src="videos/hero-mobile.mp4" type="video/mp4">
+                  <img src="images/eucharia-mobile-mockup.jpg" alt="Eucharia Luxury Hair mobile website mockup created by Built by Oma" width="552" height="1024" loading="eager">
+                </video>
+                <button type="button" class="video-sound-toggle" id="heroSoundToggle" aria-label="Unmute sound" title="Toggle sound">
+                  <svg class="sound-icon sound-muted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                    <line x1="23" y1="9" x2="17" y2="15"></line>
+                    <line x1="17" y1="9" x2="23" y2="15"></line>
+                  </svg>
+                  <svg class="sound-icon sound-unmuted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" style="display: none;">
+                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                  </svg>
+                </button>
               </div>
             </div>
           </div>
@@ -713,6 +735,6 @@
     <a href="https://wa.me/message/6P2BCB7RTWDBH1" target="_blank" rel="noopener noreferrer" class="mobile-sticky-btn">Build My Website</a>
   </div>
 
-  <script src="app.js?v=15"></script>
+  <script src="app.js?v=16"></script>
 </body>
 </html>
